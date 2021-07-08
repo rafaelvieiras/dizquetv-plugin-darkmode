@@ -1,0 +1,4 @@
+html:not(img):not(video):not(.all-color-critical-elements) body.dark-mode {
+  background: black;
+  filter: invert(1) hue-rotate(180deg);
+}

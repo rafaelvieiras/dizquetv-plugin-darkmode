@@ -1,0 +1,13 @@
+{
+  "name": "Dark Mode",
+  "scope": ["web", "themes"],
+  "hooks": [
+    "dizquetv:Start",
+    "dizquetv:WEB:CustomCss",
+    "dizquetv:WEB:CustomJs",
+    "dizquetv:WEB:RegisterSettings"
+  ],
+  "repository": "rafaelvieiras/dizquetv-plugin-darkmode",
+  "summary": "A simple way to put dizquetv UI in Dark Mode.",
+  "cover": "https://raw.githubusercontent.com/rafaelvieiras/dizquetv-plugin-darkmode/master/docs/dark-mode-cover.png?sanitize=true"
+}
