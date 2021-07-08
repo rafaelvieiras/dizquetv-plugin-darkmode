@@ -1,0 +1,31 @@
+{
+  "name": "dizquetv-plugin-darkmode",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "node build.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rafaelvieiras/dizquetv-plugin-darkmode.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rafaelvieiras/dizquetv-plugin-darkmode/issues"
+  },
+  "homepage": "https://github.com/rafaelvieiras/dizquetv-plugin-darkmode#readme",
+  "devDependencies": {
+    "@commitlint/cli": "^12.1.4",
+    "@commitlint/config-conventional": "^12.1.4",
+    "copy-dir": "^1.3.0",
+    "cz-conventional-changelog": "^3.3.0",
+    "husky": "^7.0.1"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
+}
